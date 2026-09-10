@@ -47,8 +47,19 @@ Klient startuje od `radio/radio-config.json` i rozwiązuje pozostałe ścieżki
 `catalogRevision` w `streams.json` i `radio-config.json` musi być równe
 `revision` w `stations.json`. Zbiór `streamId` w obu plikach jest identyczny.
 
-Przynależność stacji do grupy regionalnej wyraża wyłącznie pole `groupId`
-przy streamie — grupa nie przechowuje listy swoich dzieci.
+## Grupy regionalne i kanały tematyczne
+
+Przynależność stacji do sieci regionalnej wyraża **wyłącznie pole `groupId`**
+przy streamie — grupa nie przechowuje listy swoich dzieci. Każdy stream
+regionalny ma komplet: `city`, `voivodeship`, `latitude`, `longitude`.
+
+Grupa może wskazać `nationalFallbackStreamId` — ogólnopolski stream tej samej
+sieci, bez miasta i bez współrzędnych. Klient używa go, gdy nie potrafi wybrać
+najbliższego regionu.
+
+**Kanały tematyczne** (np. listy przebojów, kanały gatunkowe i dekadowe znanych
+sieci) są w tym katalogu **samodzielnymi stacjami**: mają `groupId: null`, nie
+mają lokalizacji i nie biorą udziału w wyborze najbliższego regionu.
 
 ## Zgłaszanie niedziałających stacji
 

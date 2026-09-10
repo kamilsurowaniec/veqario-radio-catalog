@@ -1,9 +1,21 @@
 {
   "manifestVersion": 1,
-  "catalogRevision": 1,
+  "catalogRevision": 2,
   "streams": {
+    "antyradio": {
+      "primaryUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/ANTYRADIO.mp3",
+      "fallbackUrls": []
+    },
+    "antyradio-classic-rock": {
+      "primaryUrl": "https://an.cdn.eurozet.pl/ANTCLA.mp3",
+      "fallbackUrls": []
+    },
     "antyradio-made-in-poland": {
       "primaryUrl": "https://an.cdn.eurozet.pl/ANTPOL.mp3",
+      "fallbackUrls": []
+    },
+    "chillizet": {
+      "primaryUrl": "https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/chillizet.livx?audio=5",
       "fallbackUrls": []
     },
     "chillizet-ladies": {
@@ -18,36 +30,308 @@
       "primaryUrl": "https://s3.slotex.pl/shoutcast/7170/stream?sid=1",
       "fallbackUrls": []
     },
+    "eska": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2980-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-00": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6160-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-10": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6170-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-20": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6240-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-belchatow": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2010-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-beskidy": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2300-1.aac",
+      "fallbackUrls": []
+    },
     "eska-bialystok": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2020-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-braniewo": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2520-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-bydgoszcz": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2030-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-do-pracy": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6140-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-elblag": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2430-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-fitness": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6150-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-goraca-100": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6120-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-goraca-20": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6130-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-gorzow-wielkopolski": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2040-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-grudziadz": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2450-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-ilawa": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2440-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-impreska": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6030-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-jelenia-gora": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2480-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-k-pop": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6310-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-kalisz": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2200-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-katowice": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2220-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-kielce": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2050-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-koszalin": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2270-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-krakow": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2070-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-krasnik": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2360-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-leszno": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2080-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-live-remix": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6270-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-lodz": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2100-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-lomza": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2460-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-love": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6280-1.aac",
       "fallbackUrls": []
     },
     "eska-lublin": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2130-1.aac",
       "fallbackUrls": []
     },
+    "eska-nowy-sacz": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2330-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-olsztyn": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2110-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-opole": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2120-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-ostrowiec-swietokrzyski": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2550-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-ostrzeszow": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2500-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-pila": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2090-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-plock": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2250-1.aac",
+      "fallbackUrls": []
+    },
     "eska-poznan": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2140-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-przemysl": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2320-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-radom": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2210-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-rap20": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6190-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-rock": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/5980-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-rock-klasyka-rocka": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6070-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-rock-nowy-rock": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6060-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-rock-rock-ballads": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6010-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-rock-teraz-polski-rock": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6090-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-rock-warszawa": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/5380-1.aac",
       "fallbackUrls": []
     },
     "eska-rzeszow": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2240-1.aac",
       "fallbackUrls": []
     },
+    "eska-siedlce": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2060-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-starachowice": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2400-1.aac",
+      "fallbackUrls": []
+    },
     "eska-suwalki": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2540-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-szczecin": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2260-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-szczecinek": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2310-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-tarnow": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2160-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-torun": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2150-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-toy-story-radio": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6300-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-trojmiasto": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2170-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-tylko-nowe": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6050-1.aac",
       "fallbackUrls": []
     },
     "eska-warszawa": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2380-1.aac",
       "fallbackUrls": []
     },
+    "eska-wroclaw": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2180-1.aac",
+      "fallbackUrls": []
+    },
     "eska-zamosc": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2230-1.aac",
       "fallbackUrls": []
     },
+    "eska-zary": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2420-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-zielona-gora": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2190-1.aac",
+      "fallbackUrls": []
+    },
+    "meloradio": {
+      "primaryUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/MELORADIO.mp3",
+      "fallbackUrls": []
+    },
+    "polskie-radio-24": {
+      "primaryUrl": "https://stream15.polskieradio.pl/pr24/pr24.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "polskie-radio-chopin": {
+      "primaryUrl": "https://stream85.polskieradio.pl/live/rytm.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "polskie-radio-czworka": {
+      "primaryUrl": "https://stream14.polskieradio.pl/pr4/pr4.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
     "polskie-radio-dla-ukrainy": {
       "primaryUrl": "https://stream85.polskieradio.pl/radio_ukraina/ukraina.stream/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "polskie-radio-dla-zagranicy": {
+      "primaryUrl": "https://stream85.polskieradio.pl/pr5/pr5_wsch.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "polskie-radio-dwojka": {
+      "primaryUrl": "https://stream12.polskieradio.pl/pr2/pr2.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "polskie-radio-dzieciom": {
+      "primaryUrl": "https://stream85.polskieradio.pl/live/radio_dzieciom.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "polskie-radio-jedynka": {
+      "primaryUrl": "https://stream11.polskieradio.pl/pr1/pr1.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "polskie-radio-kierowcow": {
+      "primaryUrl": "https://stream10.polskieradio.pl/prk/rdk.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "polskie-radio-trojka": {
+      "primaryUrl": "https://stream13.polskieradio.pl/pr3/pr3.sdp/playlist.m3u8",
       "fallbackUrls": []
     },
     "radio-5": {
@@ -82,6 +366,10 @@
       "primaryUrl": "https://stream.rcs.revma.com/7vhveccrnquvv",
       "fallbackUrls": []
     },
+    "radio-zet": {
+      "primaryUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ZET.mp3",
+      "fallbackUrls": []
+    },
     "radio-zet-love": {
       "primaryUrl": "https://zt.cdn.eurozet.pl/ZETLOV.mp3",
       "fallbackUrls": []
@@ -102,28 +390,584 @@
       "primaryUrl": "https://s.red7.pl/edm256",
       "fallbackUrls": []
     },
+    "rmf-10s": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_2010",
+      "fallbackUrls": []
+    },
+    "rmf-2-pop": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_2",
+      "fallbackUrls": []
+    },
+    "rmf-2000": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_2000",
+      "fallbackUrls": []
+    },
+    "rmf-20s": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_20s",
+      "fallbackUrls": []
+    },
+    "rmf-24": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_24",
+      "fallbackUrls": []
+    },
+    "rmf-24-wro": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_24_wroc",
+      "fallbackUrls": []
+    },
+    "rmf-3-pop-rock": {
+      "primaryUrl": "https://rs201-krk-cyfronet.rmfstream.pl/rmf_3",
+      "fallbackUrls": []
+    },
+    "rmf-4-dance-rnb": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_4",
+      "fallbackUrls": []
+    },
+    "rmf-5-lagodne-przeboje": {
+      "primaryUrl": "https://rs103-krk-cyfronet.rmfstream.pl/rmf_5",
+      "fallbackUrls": []
+    },
+    "rmf-50s": {
+      "primaryUrl": "https://rs102-krk-cyfronet.rmfstream.pl/rmf_50s",
+      "fallbackUrls": []
+    },
+    "rmf-60s": {
+      "primaryUrl": "https://rs202-krk.rmfstream.pl/rmf_60s",
+      "fallbackUrls": []
+    },
+    "rmf-70s": {
+      "primaryUrl": "https://rs202-krk.rmfstream.pl/rmf_70s",
+      "fallbackUrls": []
+    },
+    "rmf-80s": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_80s",
+      "fallbackUrls": []
+    },
+    "rmf-80s-disco": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_80s_disco",
+      "fallbackUrls": []
+    },
+    "rmf-90s": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_90s",
+      "fallbackUrls": []
+    },
+    "rmf-90s-dance": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_90s_dance",
+      "fallbackUrls": []
+    },
+    "rmf-alternatywa": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_alternatywa",
+      "fallbackUrls": []
+    },
+    "rmf-ballady": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_nostalgia",
+      "fallbackUrls": []
+    },
+    "rmf-blues": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_blues",
+      "fallbackUrls": []
+    },
+    "rmf-cafe": {
+      "primaryUrl": "https://rs201-krk-cyfronet.rmfstream.pl/rmf_studencka_impreza",
+      "fallbackUrls": []
+    },
+    "rmf-chillout": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_chillout",
+      "fallbackUrls": []
+    },
+    "rmf-classic": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_classic",
+      "fallbackUrls": []
+    },
+    "rmf-classic-rock": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_classic_rock",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-cza": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_classicplus_cza",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-min": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_classicplus_min",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-osc": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_classicplus_osc",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-pir": {
+      "primaryUrl": "https://rs102-krk-cyfronet.rmfstream.pl/rmf_classicplus_pir",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-sku": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_classicplus_sku",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-srd": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_classicplus_srd",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-tar": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_classicplus_tar",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-tho": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_classicplus_tho",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-wer": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_classicplus_wer",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-wes": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_classicplus_wes",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-wil": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_classicplus_wil",
+      "fallbackUrls": []
+    },
+    "rmf-classicplus-zim": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_classicplus_zim",
+      "fallbackUrls": []
+    },
+    "rmf-club": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_club",
+      "fallbackUrls": []
+    },
+    "rmf-crush": {
+      "primaryUrl": "https://rs102-krk.rmfstream.pl/rmf_top9",
+      "fallbackUrls": []
+    },
+    "rmf-dance": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_dance",
+      "fallbackUrls": []
+    },
     "rmf-disco-polo": {
       "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_disco_polo",
       "fallbackUrls": []
     },
+    "rmf-dla-dzieci": {
+      "primaryUrl": "https://rs102-krk-cyfronet.rmfstream.pl/rmf_baby",
+      "fallbackUrls": []
+    },
+    "rmf-filmowy-przeboj-wszech-czasow": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_top11",
+      "fallbackUrls": []
+    },
+    "rmf-fitness": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_fitness",
+      "fallbackUrls": []
+    },
+    "rmf-fitness-rock": {
+      "primaryUrl": "https://rs102-krk-cyfronet.rmfstream.pl/rmf_fitness_rock",
+      "fallbackUrls": []
+    },
     "rmf-fm": {
-      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_fm",
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_fm",
+      "fallbackUrls": []
+    },
+    "rmf-fresh-dance": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_top17",
+      "fallbackUrls": []
+    },
+    "rmf-fresh-hip-hop": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_top19",
+      "fallbackUrls": []
+    },
+    "rmf-fresh-polski-hip-hop": {
+      "primaryUrl": "https://rs103-krk-cyfronet.rmfstream.pl/rmf_top18",
+      "fallbackUrls": []
+    },
+    "rmf-fresh-polskie": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_top20",
+      "fallbackUrls": []
+    },
+    "rmf-fresh-pop": {
+      "primaryUrl": "https://rs202-krk.rmfstream.pl/rmf_top16",
+      "fallbackUrls": []
+    },
+    "rmf-gold": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_gold",
+      "fallbackUrls": []
+    },
+    "rmf-hard-and-heavy": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_hard_heavy",
+      "fallbackUrls": []
+    },
+    "rmf-hip-hop": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_hip_hop",
+      "fallbackUrls": []
+    },
+    "rmf-hopbec": {
+      "primaryUrl": "https://rs102-krk.rmfstream.pl/rmf_hop_bec",
+      "fallbackUrls": []
+    },
+    "rmf-hot-new": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_hot_new",
       "fallbackUrls": []
     },
     "rmf-k-pop": {
-      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_gamemusic",
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_gamemusic",
+      "fallbackUrls": []
+    },
+    "rmf-klasyka-polskiego-hip-hop": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_ziom",
+      "fallbackUrls": []
+    },
+    "rmf-ladies": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_ladies",
+      "fallbackUrls": []
+    },
+    "rmf-latino": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_latino",
+      "fallbackUrls": []
+    },
+    "rmf-leniwaniedziela": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_leniwa_niedziela",
+      "fallbackUrls": []
+    },
+    "rmf-love": {
+      "primaryUrl": "https://rs102-krk-cyfronet.rmfstream.pl/rmf_love",
+      "fallbackUrls": []
+    },
+    "rmf-maxx": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_maxxx",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-bydgoszcz": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_maxxx_byd",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-ciechanow": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_maxxx_cie",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-czestochowa": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_maxxx_cze",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-dance": {
+      "primaryUrl": "https://rs102-krk-cyfronet.rmfstream.pl/rmf_maxx_dance",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-gdansk": {
+      "primaryUrl": "https://rs102-krk-cyfronet.rmfstream.pl/rmf_maxxx_gda",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-inowroclaw": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_maxxx_ino",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-katowice": {
+      "primaryUrl": "https://rs102-krk.rmfstream.pl/rmf_maxxx_slk",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-kielce": {
+      "primaryUrl": "https://rs102-krk.rmfstream.pl/rmf_maxxx_kie",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-konin": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_maxxx_knn",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-krakow": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_maxxx_kra",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-krosno": {
+      "primaryUrl": "https://rs201-krk-cyfronet.rmfstream.pl/rmf_maxxx_ksn",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-lomza": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_maxxx_lom",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-new-hits": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_maxx_new_hits",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-nowy-sacz": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_maxxx_nsa",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-olesnica": {
+      "primaryUrl": "https://rs201-krk-cyfronet.rmfstream.pl/rmf_maxxx_ole",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-opole": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_maxxx_opo",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-pila": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_maxxx_pil",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-poznan": {
+      "primaryUrl": "https://rs202-krk.rmfstream.pl/rmf_maxxx_poz",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-rap": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_maxx_rap",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-slupsk": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_maxxx_slu",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-szczecin": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_maxxx_szc",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-tomaszow-mazowiecki": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_maxxx_tmz",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-walbrzych": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_maxxx_wal",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-warszawa": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_maxxx_waw",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-wloclawek": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_maxxx_wlc",
+      "fallbackUrls": []
+    },
+    "rmf-maxx-zielona-gora": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_maxxx_zgr",
+      "fallbackUrls": []
+    },
+    "rmf-muzyka-filmowa": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_muzyka_filmowa",
+      "fallbackUrls": []
+    },
+    "rmf-muzyka-klasyczna": {
+      "primaryUrl": "https://rs201-krk-cyfronet.rmfstream.pl/rmf_muzyka_klasyczna",
+      "fallbackUrls": []
+    },
+    "rmf-najwieksze-polskie-przeboje-rmf-on": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/npp_rmf_on",
+      "fallbackUrls": []
+    },
+    "rmf-niezapomniane-melodie": {
+      "primaryUrl": "https://rs201-krk-cyfronet.rmfstream.pl/rmf_niezapomniane_melodie",
+      "fallbackUrls": []
+    },
+    "rmf-party": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_party",
+      "fallbackUrls": []
+    },
+    "rmf-piosenka-filmowa": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_piosenka_filmowa",
+      "fallbackUrls": []
+    },
+    "rmf-piosenka-literacka": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_piosenka_literacka",
+      "fallbackUrls": []
+    },
+    "rmf-pobudka": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_pobudka",
+      "fallbackUrls": []
+    },
+    "rmf-polska-prywatka": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_polska_prywatka",
+      "fallbackUrls": []
+    },
+    "rmf-polskaalternartwa": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_polska_alternatywa",
+      "fallbackUrls": []
+    },
+    "rmf-polski-hip-hop": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_trend_sounds",
+      "fallbackUrls": []
+    },
+    "rmf-polski-rock": {
+      "primaryUrl": "https://rs202-krk.rmfstream.pl/rmf_polski_rock",
+      "fallbackUrls": []
+    },
+    "rmf-polskie-przeboje": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_polskie_przeboje",
+      "fallbackUrls": []
+    },
+    "rmf-poplista": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_poplista",
+      "fallbackUrls": []
+    },
+    "rmf-prl": {
+      "primaryUrl": "https://rs201-krk.rmfstream.pl/rmf_prl",
+      "fallbackUrls": []
+    },
+    "rmf-relaks": {
+      "primaryUrl": "https://rs103-krk-cyfronet.rmfstream.pl/rmf_relaks",
+      "fallbackUrls": []
+    },
+    "rmf-rock": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_rock",
+      "fallbackUrls": []
+    },
+    "rmf-rock-progresywny": {
+      "primaryUrl": "https://rs202-krk-cyfronet.rmfstream.pl/rmf_rock_progresywny",
+      "fallbackUrls": []
+    },
+    "rmf-sloneczne-przeboje": {
+      "primaryUrl": "https://rs102-krk.rmfstream.pl/rmf_sloneczne_przeboje",
       "fallbackUrls": []
     },
     "rmf-smooth-jazz": {
-      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_smooth_jazz",
+      "primaryUrl": "https://rs202-krk.rmfstream.pl/rmf_smooth_jazz",
+      "fallbackUrls": []
+    },
+    "rmf-styl": {
+      "primaryUrl": "https://rs203-krk-cyfronet.rmfstream.pl/rmf_styl",
+      "fallbackUrls": []
+    },
+    "rmf-szanty": {
+      "primaryUrl": "https://rs102-krk.rmfstream.pl/rmf_szanty",
+      "fallbackUrls": []
+    },
+    "rmf-true-crime": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_true_crime",
+      "fallbackUrls": []
+    },
+    "rmf-vibe": {
+      "primaryUrl": "https://rs102-krk-cyfronet.rmfstream.pl/rmf_vibe",
+      "fallbackUrls": []
+    },
+    "rmf-viral": {
+      "primaryUrl": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_bravo",
+      "fallbackUrls": []
+    },
+    "rmf-w-kuchni": {
+      "primaryUrl": "https://rs203-krk.rmfstream.pl/rmf_w_kuchni",
+      "fallbackUrls": []
+    },
+    "rmf-w-pracy": {
+      "primaryUrl": "https://rs201-krk-cyfronet.rmfstream.pl/rmf_w_pracy",
+      "fallbackUrls": []
+    },
+    "vox-fm": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/3980-1.aac",
+      "fallbackUrls": []
+    },
+    "vox-fm-best-lista": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6100-1.aac",
+      "fallbackUrls": []
+    },
+    "vox-fm-dance": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6180-1.aac",
+      "fallbackUrls": []
+    },
+    "vox-fm-dj-mix": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6020-1.aac",
+      "fallbackUrls": []
+    },
+    "vox-fm-gorzow-wielkopolski": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/3040-1.aac",
+      "fallbackUrls": []
+    },
+    "vox-fm-poznan": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/3140-1.aac",
+      "fallbackUrls": []
+    },
+    "vox-fm-radom": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/3210-1.aac",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje": {
+      "primaryUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ZLOTE_PRZEBOJE.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-bialystok": {
+      "primaryUrl": "https://radiostream.pl/tuba8900-1.mp3",
       "fallbackUrls": []
     },
     "zlote-przeboje-bydgoszcz": {
       "primaryUrl": "https://radiostream.pl/tuba8902-1.mp3",
       "fallbackUrls": []
     },
+    "zlote-przeboje-czestochowa": {
+      "primaryUrl": "https://radiostream.pl/tuba8904-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-gdansk": {
+      "primaryUrl": "https://radiostream.pl/tuba8906-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-jelenia-gora": {
+      "primaryUrl": "https://radiostream.pl/tuba8908-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-kielce": {
+      "primaryUrl": "https://radiostream.pl/tuba8912-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-krakow": {
+      "primaryUrl": "https://radiostream.pl/tuba8914-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-legnica": {
+      "primaryUrl": "https://radiostream.pl/tuba8916-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-lodz": {
+      "primaryUrl": "https://radiostream.pl/tuba8918-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-lublin": {
+      "primaryUrl": "https://radiostream.pl/tuba8920-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-opole": {
+      "primaryUrl": "https://radiostream.pl/tuba8924-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-podhale": {
+      "primaryUrl": "https://radiostream.pl/tuba8922-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-poznan": {
+      "primaryUrl": "https://radiostream.pl/tuba8926-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-rzeszow": {
+      "primaryUrl": "https://radiostream.pl/tuba8928-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-slask-i-zaglebie": {
+      "primaryUrl": "https://radiostream.pl/tuba8910-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-szczecin": {
+      "primaryUrl": "https://radiostream.pl/tuba8930-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-tarnow": {
+      "primaryUrl": "https://radiostream.pl/tuba8932-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-walbrzych": {
+      "primaryUrl": "https://radiostream.pl/tuba8934-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-warszawa": {
+      "primaryUrl": "https://radiostream.pl/tuba8936-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-wolin": {
+      "primaryUrl": "https://radiostream.pl/tuba8938-1.mp3",
+      "fallbackUrls": []
+    },
     "zlote-przeboje-wroclaw": {
       "primaryUrl": "https://radiostream.pl/tuba8940-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-zamosc": {
+      "primaryUrl": "https://radiostream.pl/tuba8942-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-zielona-gora": {
+      "primaryUrl": "https://radiostream.pl/tuba8944-1.mp3",
       "fallbackUrls": []
     }
   }

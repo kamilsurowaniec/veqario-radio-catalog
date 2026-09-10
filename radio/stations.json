@@ -1,22 +1,55 @@
 {
   "schemaVersion": 2,
   "minimumClientProtocol": 2,
-  "revision": 1,
-  "updatedAt": "2026-09-10T16:15:21.000Z",
+  "revision": 2,
+  "updatedAt": "2026-09-10T17:52:39.000Z",
   "groups": [
     {
       "id": "eska",
-      "name": "Radio ESKA"
+      "name": "Radio ESKA",
+      "nationalFallbackStreamId": "eska"
     },
     {
       "id": "zlote-przeboje",
-      "name": "Radio Złote Przeboje"
+      "name": "Radio Złote Przeboje",
+      "nationalFallbackStreamId": "zlote-przeboje"
+    },
+    {
+      "id": "rmf-maxx",
+      "name": "RMF MAXX",
+      "nationalFallbackStreamId": "rmf-maxx"
+    },
+    {
+      "id": "vox-fm",
+      "name": "VOX FM",
+      "nationalFallbackStreamId": "vox-fm"
     }
   ],
   "streams": [
     {
+      "id": "antyradio",
+      "name": "Antyradio",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "antyradio-classic-rock",
+      "name": "Antyradio Classic Rock",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
       "id": "antyradio-made-in-poland",
       "name": "Antyradio Made in Poland",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "chillizet",
+      "name": "Chillizet",
       "countryCode": "PL",
       "codec": "mp3",
       "enabled": true
@@ -43,8 +76,257 @@
       "enabled": true
     },
     {
+      "id": "eska-do-pracy",
+      "name": "ESKA Do Pracy",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-fitness",
+      "name": "ESKA FITNESS",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-goraca-100",
+      "name": "ESKA GORĄCA 100",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-goraca-20",
+      "name": "ESKA GORĄCA 20",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-impreska",
+      "name": "ESKA Impreska",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-k-pop",
+      "name": "ESKA K-POP",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-live-remix",
+      "name": "ESKA LIVE REMIX",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-love",
+      "name": "ESKA LOVE",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-rap20",
+      "name": "ESKA Rap20",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-rock",
+      "name": "Eska ROCK",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-rock-klasyka-rocka",
+      "name": "Eska ROCK Klasyka Rocka",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-rock-nowy-rock",
+      "name": "Eska ROCK Nowy Rock",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-rock-rock-ballads",
+      "name": "Eska ROCK Rock Ballads",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-rock-teraz-polski-rock",
+      "name": "Eska ROCK Teraz Polski Rock",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-rock-warszawa",
+      "name": "Eska ROCK Warszawa",
+      "city": "Warszawa",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 52.22977,
+      "longitude": 21.01178,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-toy-story-radio",
+      "name": "ESKA TOY STORY Radio",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-tylko-nowe",
+      "name": "ESKA TYLKO NOWE",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-00",
+      "name": "ESKA’00",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-10",
+      "name": "ESKA’10",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-20",
+      "name": "ESKA’20",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "rmf-fresh-dance",
+      "name": "FRESH Dance",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-fresh-hip-hop",
+      "name": "FRESH Hip Hop",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-fresh-polski-hip-hop",
+      "name": "FRESH Polski Hip Hop",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-fresh-polskie",
+      "name": "FRESH Polskie",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-fresh-pop",
+      "name": "FRESH Pop",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "meloradio",
+      "name": "Meloradio",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-24",
+      "name": "Polskie Radio 24",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-chopin",
+      "name": "Polskie Radio Chopin",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
       "id": "polskie-radio-dla-ukrainy",
       "name": "Polskie Radio dla Ukrainy",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-dla-zagranicy",
+      "name": "Polskie Radio dla Zagranicy",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-dzieciom",
+      "name": "Polskie Radio Dzieciom",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-kierowcow",
+      "name": "Polskie Radio Kierowców",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-jedynka",
+      "name": "Polskie Radio Program 1 (Jedynka)",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-dwojka",
+      "name": "Polskie Radio Program 2 (Dwójka)",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-trojka",
+      "name": "Polskie Radio Program 3 (Trójka)",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-czworka",
+      "name": "Polskie Radio Program 4 (Czwórka)",
       "countryCode": "PL",
       "codec": "hls",
       "enabled": true
@@ -72,6 +354,38 @@
       "enabled": true
     },
     {
+      "id": "eska",
+      "groupId": "eska",
+      "name": "Radio ESKA",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-beskidy",
+      "groupId": "eska",
+      "name": "Radio ESKA Beskidy",
+      "city": "Bielsko-Biała",
+      "voivodeship": "slaskie",
+      "countryCode": "PL",
+      "latitude": 49.82245,
+      "longitude": 19.04686,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-belchatow",
+      "groupId": "eska",
+      "name": "Radio ESKA Bełchatów",
+      "city": "Bełchatów",
+      "voivodeship": "lodzkie",
+      "countryCode": "PL",
+      "latitude": 51.36883,
+      "longitude": 19.35671,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
       "id": "eska-bialystok",
       "groupId": "eska",
       "name": "Radio ESKA Białystok",
@@ -80,6 +394,174 @@
       "countryCode": "PL",
       "latitude": 53.13333,
       "longitude": 23.16433,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-braniewo",
+      "groupId": "eska",
+      "name": "Radio ESKA Braniewo",
+      "city": "Braniewo",
+      "voivodeship": "warminsko-mazurskie",
+      "countryCode": "PL",
+      "latitude": 54.37971,
+      "longitude": 19.81959,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-bydgoszcz",
+      "groupId": "eska",
+      "name": "Radio ESKA Bydgoszcz",
+      "city": "Bydgoszcz",
+      "voivodeship": "kujawsko-pomorskie",
+      "countryCode": "PL",
+      "latitude": 53.1235,
+      "longitude": 18.00762,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-elblag",
+      "groupId": "eska",
+      "name": "Radio ESKA Elbląg",
+      "city": "Elbląg",
+      "voivodeship": "warminsko-mazurskie",
+      "countryCode": "PL",
+      "latitude": 54.1522,
+      "longitude": 19.40884,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-gorzow-wielkopolski",
+      "groupId": "eska",
+      "name": "Radio ESKA Gorzów Wielkopolski",
+      "city": "Gorzów Wielkopolski",
+      "voivodeship": "lubuskie",
+      "countryCode": "PL",
+      "latitude": 52.73371,
+      "longitude": 15.22505,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-grudziadz",
+      "groupId": "eska",
+      "name": "Radio ESKA Grudziądz",
+      "city": "Grudziądz",
+      "voivodeship": "kujawsko-pomorskie",
+      "countryCode": "PL",
+      "latitude": 53.48411,
+      "longitude": 18.75366,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-ilawa",
+      "groupId": "eska",
+      "name": "Radio ESKA Iława",
+      "city": "Iława",
+      "voivodeship": "warminsko-mazurskie",
+      "countryCode": "PL",
+      "latitude": 53.59601,
+      "longitude": 19.56849,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-jelenia-gora",
+      "groupId": "eska",
+      "name": "Radio ESKA Jelenia Góra",
+      "city": "Jelenia Góra",
+      "voivodeship": "dolnoslaskie",
+      "countryCode": "PL",
+      "latitude": 50.89973,
+      "longitude": 15.72899,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-kalisz",
+      "groupId": "eska",
+      "name": "Radio ESKA Kalisz",
+      "city": "Kalisz",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 51.76109,
+      "longitude": 18.09102,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-katowice",
+      "groupId": "eska",
+      "name": "Radio ESKA Katowice",
+      "city": "Katowice",
+      "voivodeship": "slaskie",
+      "countryCode": "PL",
+      "latitude": 50.2597,
+      "longitude": 19.02173,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-kielce",
+      "groupId": "eska",
+      "name": "Radio ESKA Kielce",
+      "city": "Kielce",
+      "voivodeship": "swietokrzyskie",
+      "countryCode": "PL",
+      "latitude": 50.87033,
+      "longitude": 20.62752,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-koszalin",
+      "groupId": "eska",
+      "name": "Radio ESKA Koszalin",
+      "city": "Koszalin",
+      "voivodeship": "zachodniopomorskie",
+      "countryCode": "PL",
+      "latitude": 54.19438,
+      "longitude": 16.17222,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-krakow",
+      "groupId": "eska",
+      "name": "Radio ESKA Kraków",
+      "city": "Kraków",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 50.06143,
+      "longitude": 19.93658,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-krasnik",
+      "groupId": "eska",
+      "name": "Radio ESKA Kraśnik",
+      "city": "Kraśnik",
+      "voivodeship": "lubelskie",
+      "countryCode": "PL",
+      "latitude": 50.9236,
+      "longitude": 22.22706,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-leszno",
+      "groupId": "eska",
+      "name": "Radio ESKA Leszno",
+      "city": "Leszno",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 51.84034,
+      "longitude": 16.57494,
       "codec": "aacp",
       "enabled": true
     },
@@ -96,6 +578,78 @@
       "enabled": true
     },
     {
+      "id": "eska-nowy-sacz",
+      "groupId": "eska",
+      "name": "Radio ESKA Nowy Sącz",
+      "city": "Nowy Sącz",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 49.62177,
+      "longitude": 20.69705,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-olsztyn",
+      "groupId": "eska",
+      "name": "Radio ESKA Olsztyn",
+      "city": "Olsztyn",
+      "voivodeship": "warminsko-mazurskie",
+      "countryCode": "PL",
+      "latitude": 53.78376,
+      "longitude": 20.49272,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-opole",
+      "groupId": "eska",
+      "name": "Radio ESKA Opole",
+      "city": "Opole",
+      "voivodeship": "opolskie",
+      "countryCode": "PL",
+      "latitude": 50.67119,
+      "longitude": 17.92604,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-ostrowiec-swietokrzyski",
+      "groupId": "eska",
+      "name": "Radio ESKA Ostrowiec Świętokrzyski",
+      "city": "Ostrowiec Świętokrzyski",
+      "voivodeship": "swietokrzyskie",
+      "countryCode": "PL",
+      "latitude": 50.92936,
+      "longitude": 21.38525,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-ostrzeszow",
+      "groupId": "eska",
+      "name": "Radio ESKA Ostrzeszów",
+      "city": "Ostrzeszów",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 51.4264,
+      "longitude": 17.93355,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-pila",
+      "groupId": "eska",
+      "name": "Radio ESKA Piła",
+      "city": "Piła",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 53.15145,
+      "longitude": 16.73782,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
       "id": "eska-poznan",
       "groupId": "eska",
       "name": "Radio ESKA Poznań",
@@ -104,6 +658,42 @@
       "countryCode": "PL",
       "latitude": 52.40692,
       "longitude": 16.92993,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-przemysl",
+      "groupId": "eska",
+      "name": "Radio ESKA Przemyśl",
+      "city": "Przemyśl",
+      "voivodeship": "podkarpackie",
+      "countryCode": "PL",
+      "latitude": 49.78498,
+      "longitude": 22.76728,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-plock",
+      "groupId": "eska",
+      "name": "Radio ESKA Płock",
+      "city": "Płock",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 52.54682,
+      "longitude": 19.70638,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-radom",
+      "groupId": "eska",
+      "name": "Radio ESKA Radom",
+      "city": "Radom",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 51.40253,
+      "longitude": 21.14714,
       "codec": "aacp",
       "enabled": true
     },
@@ -120,6 +710,30 @@
       "enabled": true
     },
     {
+      "id": "eska-siedlce",
+      "groupId": "eska",
+      "name": "Radio ESKA Siedlce",
+      "city": "Siedlce",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 52.16772,
+      "longitude": 22.29006,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-starachowice",
+      "groupId": "eska",
+      "name": "Radio ESKA Starachowice",
+      "city": "Starachowice",
+      "voivodeship": "swietokrzyskie",
+      "countryCode": "PL",
+      "latitude": 51.0374,
+      "longitude": 21.07126,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
       "id": "eska-suwalki",
       "groupId": "eska",
       "name": "Radio ESKA Suwałki",
@@ -128,6 +742,66 @@
       "countryCode": "PL",
       "latitude": 54.11175,
       "longitude": 22.93087,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-szczecin",
+      "groupId": "eska",
+      "name": "Radio ESKA Szczecin",
+      "city": "Szczecin",
+      "voivodeship": "zachodniopomorskie",
+      "countryCode": "PL",
+      "latitude": 53.42894,
+      "longitude": 14.55302,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-szczecinek",
+      "groupId": "eska",
+      "name": "Radio ESKA Szczecinek",
+      "city": "Szczecinek",
+      "voivodeship": "zachodniopomorskie",
+      "countryCode": "PL",
+      "latitude": 53.70791,
+      "longitude": 16.69937,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-tarnow",
+      "groupId": "eska",
+      "name": "Radio ESKA Tarnów",
+      "city": "Tarnów",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 50.01381,
+      "longitude": 20.98698,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-torun",
+      "groupId": "eska",
+      "name": "Radio ESKA Toruń",
+      "city": "Toruń",
+      "voivodeship": "kujawsko-pomorskie",
+      "countryCode": "PL",
+      "latitude": 53.01375,
+      "longitude": 18.59814,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-trojmiasto",
+      "groupId": "eska",
+      "name": "Radio ESKA Trójmiasto",
+      "city": "Gdańsk",
+      "voivodeship": "pomorskie",
+      "countryCode": "PL",
+      "latitude": 54.35227,
+      "longitude": 18.64912,
       "codec": "aacp",
       "enabled": true
     },
@@ -144,6 +818,18 @@
       "enabled": true
     },
     {
+      "id": "eska-wroclaw",
+      "groupId": "eska",
+      "name": "Radio ESKA Wrocław",
+      "city": "Wrocław",
+      "voivodeship": "dolnoslaskie",
+      "countryCode": "PL",
+      "latitude": 51.10286,
+      "longitude": 17.03006,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
       "id": "eska-zamosc",
       "groupId": "eska",
       "name": "Radio ESKA Zamość",
@@ -152,6 +838,54 @@
       "countryCode": "PL",
       "latitude": 50.72314,
       "longitude": 23.25196,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-zielona-gora",
+      "groupId": "eska",
+      "name": "Radio ESKA Zielona Góra",
+      "city": "Zielona Góra",
+      "voivodeship": "lubuskie",
+      "countryCode": "PL",
+      "latitude": 51.93548,
+      "longitude": 15.50643,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-lomza",
+      "groupId": "eska",
+      "name": "Radio ESKA Łomża",
+      "city": "Łomża",
+      "voivodeship": "podlaskie",
+      "countryCode": "PL",
+      "latitude": 53.17806,
+      "longitude": 22.05935,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-lodz",
+      "groupId": "eska",
+      "name": "Radio ESKA Łódź",
+      "city": "Łódź",
+      "voivodeship": "lodzkie",
+      "countryCode": "PL",
+      "latitude": 51.77058,
+      "longitude": 19.47395,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-zary",
+      "groupId": "eska",
+      "name": "Radio ESKA Żary",
+      "city": "Żary",
+      "voivodeship": "lubuskie",
+      "countryCode": "PL",
+      "latitude": 51.64205,
+      "longitude": 15.13727,
       "codec": "aacp",
       "enabled": true
     },
@@ -207,10 +941,24 @@
       "enabled": true
     },
     {
+      "id": "rmf-24",
+      "name": "RADIO RMF24",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
       "id": "radio-yanosik",
       "name": "Radio Yanosik",
       "countryCode": "PL",
       "codec": "aac",
+      "enabled": true
+    },
+    {
+      "id": "radio-zet",
+      "name": "Radio ZET",
+      "countryCode": "PL",
+      "codec": "mp3",
       "enabled": true
     },
     {
@@ -228,6 +976,26 @@
       "enabled": true
     },
     {
+      "id": "zlote-przeboje",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-bialystok",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Białystok",
+      "city": "Białystok",
+      "voivodeship": "podlaskie",
+      "countryCode": "PL",
+      "latitude": 53.13333,
+      "longitude": 23.16433,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
       "id": "zlote-przeboje-bydgoszcz",
       "groupId": "zlote-przeboje",
       "name": "Radio Złote Przeboje Bydgoszcz",
@@ -240,6 +1008,198 @@
       "enabled": true
     },
     {
+      "id": "zlote-przeboje-czestochowa",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Częstochowa",
+      "city": "Częstochowa",
+      "voivodeship": "slaskie",
+      "countryCode": "PL",
+      "latitude": 50.79646,
+      "longitude": 19.12409,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-gdansk",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Gdańsk",
+      "city": "Gdańsk",
+      "voivodeship": "pomorskie",
+      "countryCode": "PL",
+      "latitude": 54.35227,
+      "longitude": 18.64912,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-jelenia-gora",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Jelenia Góra",
+      "city": "Jelenia Góra",
+      "voivodeship": "dolnoslaskie",
+      "countryCode": "PL",
+      "latitude": 50.89973,
+      "longitude": 15.72899,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-kielce",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Kielce",
+      "city": "Kielce",
+      "voivodeship": "swietokrzyskie",
+      "countryCode": "PL",
+      "latitude": 50.87033,
+      "longitude": 20.62752,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-krakow",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Kraków",
+      "city": "Kraków",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 50.06143,
+      "longitude": 19.93658,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-legnica",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Legnica",
+      "city": "Legnica",
+      "voivodeship": "dolnoslaskie",
+      "countryCode": "PL",
+      "latitude": 51.21006,
+      "longitude": 16.1619,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-lublin",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Lublin",
+      "city": "Lublin",
+      "voivodeship": "lubelskie",
+      "countryCode": "PL",
+      "latitude": 51.25058,
+      "longitude": 22.57009,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-opole",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Opole",
+      "city": "Opole",
+      "voivodeship": "opolskie",
+      "countryCode": "PL",
+      "latitude": 50.67119,
+      "longitude": 17.92604,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-podhale",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Podhale",
+      "city": "Zakopane",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 49.29899,
+      "longitude": 19.94885,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-poznan",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Poznań",
+      "city": "Poznań",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 52.40692,
+      "longitude": 16.92993,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-rzeszow",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Rzeszów",
+      "city": "Rzeszów",
+      "voivodeship": "podkarpackie",
+      "countryCode": "PL",
+      "latitude": 50.04132,
+      "longitude": 21.99901,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-szczecin",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Szczecin",
+      "city": "Szczecin",
+      "voivodeship": "zachodniopomorskie",
+      "countryCode": "PL",
+      "latitude": 53.42894,
+      "longitude": 14.55302,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-tarnow",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Tarnów",
+      "city": "Tarnów",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 50.01381,
+      "longitude": 20.98698,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-warszawa",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Warszawa",
+      "city": "Warszawa",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 52.22977,
+      "longitude": 21.01178,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-walbrzych",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Wałbrzych",
+      "city": "Wałbrzych",
+      "voivodeship": "dolnoslaskie",
+      "countryCode": "PL",
+      "latitude": 50.77141,
+      "longitude": 16.28432,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-wolin",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Wolin",
+      "city": "Wolin",
+      "voivodeship": "zachodniopomorskie",
+      "countryCode": "PL",
+      "latitude": 53.84214,
+      "longitude": 14.61465,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
       "id": "zlote-przeboje-wroclaw",
       "groupId": "zlote-przeboje",
       "name": "Radio Złote Przeboje Wrocław",
@@ -248,6 +1208,54 @@
       "countryCode": "PL",
       "latitude": 51.10286,
       "longitude": 17.03006,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-zamosc",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Zamość",
+      "city": "Zamość",
+      "voivodeship": "lubelskie",
+      "countryCode": "PL",
+      "latitude": 50.72314,
+      "longitude": 23.25196,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-zielona-gora",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Zielona Góra",
+      "city": "Zielona Góra",
+      "voivodeship": "lubuskie",
+      "countryCode": "PL",
+      "latitude": 51.93548,
+      "longitude": 15.50643,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-lodz",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Łódź",
+      "city": "Łódź",
+      "voivodeship": "lodzkie",
+      "countryCode": "PL",
+      "latitude": 51.77058,
+      "longitude": 19.47395,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-slask-i-zaglebie",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Śląsk i Zagłębie",
+      "city": "Katowice",
+      "voivodeship": "slaskie",
+      "countryCode": "PL",
+      "latitude": 50.2597,
+      "longitude": 19.02173,
       "codec": "mp3",
       "enabled": true
     },
@@ -277,8 +1285,281 @@
       "enabled": true
     },
     {
+      "id": "rmf-10s",
+      "name": "RMF 10s",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-2-pop",
+      "name": "RMF 2 Pop",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-2000",
+      "name": "RMF 2000",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-20s",
+      "name": "RMF 20s",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-3-pop-rock",
+      "name": "RMF 3 Pop-Rock",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-4-dance-rnb",
+      "name": "RMF 4 Dance & RNB",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-5-lagodne-przeboje",
+      "name": "RMF 5 Łagodne przeboje",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-50s",
+      "name": "RMF 50s",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-60s",
+      "name": "RMF 60s",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-70s",
+      "name": "RMF 70s",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-80s",
+      "name": "RMF 80s",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-80s-disco",
+      "name": "RMF 80s disco",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-90s",
+      "name": "RMF 90s",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-90s-dance",
+      "name": "RMF 90s dance",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-alternatywa",
+      "name": "RMF Alternatywa",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-ballady",
+      "name": "RMF Ballady",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-blues",
+      "name": "RMF Blues",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-cafe",
+      "name": "RMF Cafe",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-chillout",
+      "name": "RMF Chillout",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classic",
+      "name": "RMF Classic",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-sku",
+      "name": "RMF Classic Czas skupienia",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-filmowy-przeboj-wszech-czasow",
+      "name": "RMF Classic Filmowy Przebój Wszech Czasów",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-zim",
+      "name": "RMF Classic Hans Zimmer",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-wil",
+      "name": "RMF Classic John Williams",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-wer",
+      "name": "RMF Classic Klasyka z werwą",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-min",
+      "name": "RMF Classic Mindfulness",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-wes",
+      "name": "RMF Classic Morricone Westerny",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-osc",
+      "name": "RMF Classic Muzyka Oscarowa",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-pir",
+      "name": "RMF Classic Na pirackich wodach",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classic-rock",
+      "name": "RMF Classic rock",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-tar",
+      "name": "RMF Classic Tarantino",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-tho",
+      "name": "RMF Classic Thor",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-srd",
+      "name": "RMF Classic Śródziemie",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-classicplus-cza",
+      "name": "RMF Classic Świat Czarodziejów",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-crush",
+      "name": "RMF Crush",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-dance",
+      "name": "RMF Dance",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
       "id": "rmf-disco-polo",
-      "name": "RMF Disco Polo",
+      "name": "RMF Disco polo",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-dla-dzieci",
+      "name": "RMF Dla dzieci",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-fitness",
+      "name": "RMF Fitness",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-fitness-rock",
+      "name": "RMF Fitness rock",
       "countryCode": "PL",
       "codec": "mp3",
       "enabled": true
@@ -291,6 +1572,34 @@
       "enabled": true
     },
     {
+      "id": "rmf-gold",
+      "name": "RMF Gold",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-hard-and-heavy",
+      "name": "RMF Hard & Heavy",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-hip-hop",
+      "name": "RMF Hip hop",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-hot-new",
+      "name": "RMF Hot new",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
       "id": "rmf-k-pop",
       "name": "RMF K-pop",
       "countryCode": "PL",
@@ -298,10 +1607,618 @@
       "enabled": true
     },
     {
-      "id": "rmf-smooth-jazz",
-      "name": "RMF Smooth Jazz",
+      "id": "rmf-klasyka-polskiego-hip-hop",
+      "name": "RMF Klasyka polskiego hip hopu",
       "countryCode": "PL",
       "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-ladies",
+      "name": "RMF Ladies",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-latino",
+      "name": "RMF Latino",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-leniwaniedziela",
+      "name": "RMF Leniwa niedziela",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-love",
+      "name": "RMF Love",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-bydgoszcz",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Bydgoszcz",
+      "city": "Bydgoszcz",
+      "voivodeship": "kujawsko-pomorskie",
+      "countryCode": "PL",
+      "latitude": 53.1235,
+      "longitude": 18.00762,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-club",
+      "name": "RMF MAXX Club",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-czestochowa",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Częstochowa",
+      "city": "Częstochowa",
+      "voivodeship": "slaskie",
+      "countryCode": "PL",
+      "latitude": 50.79646,
+      "longitude": 19.12409,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-dance",
+      "name": "RMF MAXX Dance",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-walbrzych",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Dolny Śląsk",
+      "city": "Wałbrzych",
+      "voivodeship": "dolnoslaskie",
+      "countryCode": "PL",
+      "latitude": 50.77141,
+      "longitude": 16.28432,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-hopbec",
+      "name": "RMF MAXX Hop Bęc",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-inowroclaw",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Inowrocław",
+      "city": "Inowrocław",
+      "voivodeship": "kujawsko-pomorskie",
+      "countryCode": "PL",
+      "latitude": 52.79886,
+      "longitude": 18.26387,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-konin",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Konin",
+      "city": "Konin",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 52.22338,
+      "longitude": 18.25121,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-krakow",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Kraków",
+      "city": "Kraków",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 50.06143,
+      "longitude": 19.93658,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-krosno",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Krosno",
+      "city": "Krosno",
+      "voivodeship": "lubuskie",
+      "countryCode": "PL",
+      "latitude": 52.05492,
+      "longitude": 15.09882,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-zielona-gora",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Lubuskie",
+      "city": "Zielona Góra",
+      "voivodeship": "lubuskie",
+      "countryCode": "PL",
+      "latitude": 51.93548,
+      "longitude": 15.50643,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-ciechanow",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Mazowsze",
+      "city": "Ciechanów",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 52.88141,
+      "longitude": 20.61996,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-new-hits",
+      "name": "RMF MAXX New Hits",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-nowy-sacz",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Nowy Sącz",
+      "city": "Nowy Sącz",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 49.62177,
+      "longitude": 20.69705,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-olesnica",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Oleśnica",
+      "city": "Oleśnica",
+      "voivodeship": "swietokrzyskie",
+      "countryCode": "PL",
+      "latitude": 50.45357,
+      "longitude": 21.06457,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-opole",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Opole",
+      "city": "Opole",
+      "voivodeship": "opolskie",
+      "countryCode": "PL",
+      "latitude": 50.67119,
+      "longitude": 17.92604,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-pila",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Piła",
+      "city": "Piła",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 53.15145,
+      "longitude": 16.73782,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-lomza",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Podlasie",
+      "city": "Łomża",
+      "voivodeship": "podlaskie",
+      "countryCode": "PL",
+      "latitude": 53.17806,
+      "longitude": 22.05935,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-slupsk",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Pomorze",
+      "city": "Słupsk",
+      "voivodeship": "pomorskie",
+      "countryCode": "PL",
+      "latitude": 54.46405,
+      "longitude": 17.02872,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-poznan",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Poznań",
+      "city": "Poznań",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 52.40692,
+      "longitude": 16.92993,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-rap",
+      "name": "RMF MAXX Rap",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-szczecin",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Szczecin",
+      "city": "Szczecin",
+      "voivodeship": "zachodniopomorskie",
+      "countryCode": "PL",
+      "latitude": 53.42894,
+      "longitude": 14.55302,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-tomaszow-mazowiecki",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Tomaszów Mazowiecki",
+      "city": "Tomaszów Mazowiecki",
+      "voivodeship": "lodzkie",
+      "countryCode": "PL",
+      "latitude": 51.53131,
+      "longitude": 20.00855,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-gdansk",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Trójmiasto",
+      "city": "Gdańsk",
+      "voivodeship": "pomorskie",
+      "countryCode": "PL",
+      "latitude": 54.35227,
+      "longitude": 18.64912,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-warszawa",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Warszawa",
+      "city": "Warszawa",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 52.22977,
+      "longitude": 21.01178,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-wloclawek",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Włocławek",
+      "city": "Włocławek",
+      "voivodeship": "kujawsko-pomorskie",
+      "countryCode": "PL",
+      "latitude": 52.64817,
+      "longitude": 19.0678,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-katowice",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Śląsk",
+      "city": "Katowice",
+      "voivodeship": "slaskie",
+      "countryCode": "PL",
+      "latitude": 50.2597,
+      "longitude": 19.02173,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-maxx-kielce",
+      "groupId": "rmf-maxx",
+      "name": "RMF MAXX Świętokrzyskie",
+      "city": "Kielce",
+      "voivodeship": "swietokrzyskie",
+      "countryCode": "PL",
+      "latitude": 50.87033,
+      "longitude": 20.62752,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-muzyka-filmowa",
+      "name": "RMF Muzyka filmowa",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-muzyka-klasyczna",
+      "name": "RMF Muzyka klasyczna",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-najwieksze-polskie-przeboje-rmf-on",
+      "name": "RMF Największe polskie przeboje",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-niezapomniane-melodie",
+      "name": "RMF Niezapomniane melodie",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-party",
+      "name": "RMF Party",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-piosenka-filmowa",
+      "name": "RMF Piosenka filmowa",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-piosenka-literacka",
+      "name": "RMF Piosenka literacka",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-pobudka",
+      "name": "RMF Pobudka",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-polskaalternartwa",
+      "name": "RMF Polska alternatywa",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-polska-prywatka",
+      "name": "RMF Polska prywatka",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-polski-hip-hop",
+      "name": "RMF Polski hip hop",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-polski-rock",
+      "name": "RMF Polski rock",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-polskie-przeboje",
+      "name": "RMF Polskie przeboje",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-poplista",
+      "name": "RMF Poplista",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-prl",
+      "name": "RMF PRL",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-relaks",
+      "name": "RMF Relaks",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-rock",
+      "name": "RMF Rock",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-rock-progresywny",
+      "name": "RMF Rock progresywny",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-smooth-jazz",
+      "name": "RMF Smooth jazz",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-styl",
+      "name": "RMF Styl",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-szanty",
+      "name": "RMF Szanty",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-sloneczne-przeboje",
+      "name": "RMF Słoneczne przeboje",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-true-crime",
+      "name": "RMF True Crime",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-vibe",
+      "name": "RMF Vibe",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-viral",
+      "name": "RMF Viral",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-w-kuchni",
+      "name": "RMF W kuchni",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-w-pracy",
+      "name": "RMF W pracy",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-24-wro",
+      "name": "RMF24 WROCŁAW",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "vox-fm",
+      "groupId": "vox-fm",
+      "name": "VOX FM",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "vox-fm-best-lista",
+      "name": "VOX FM Best Lista",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "vox-fm-dance",
+      "name": "VOX FM Dance",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "vox-fm-dj-mix",
+      "name": "VOX FM DJ Mix",
+      "countryCode": "PL",
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "vox-fm-gorzow-wielkopolski",
+      "groupId": "vox-fm",
+      "name": "VOX FM Gorzów Wielkopolski",
+      "city": "Gorzów Wielkopolski",
+      "voivodeship": "lubuskie",
+      "countryCode": "PL",
+      "latitude": 52.73371,
+      "longitude": 15.22505,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "vox-fm-poznan",
+      "groupId": "vox-fm",
+      "name": "VOX FM Poznań",
+      "city": "Poznań",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 52.40692,
+      "longitude": 16.92993,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "vox-fm-radom",
+      "groupId": "vox-fm",
+      "name": "VOX FM Radom",
+      "city": "Radom",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 51.40253,
+      "longitude": 21.14714,
+      "codec": "aacp",
       "enabled": true
     }
   ]
