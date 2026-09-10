@@ -1,0 +1,43 @@
+# --- Nigdy nie publikuj prywatnych danych kuracji ---
+*.private.json
+*.private.md
+*.geocache.json
+*.tmp
+*.bak
+
+# Wejscia i wyniki prywatnego workflow administratora
+**/radio_browser_candidates*
+**/radio_browser_triage*
+**/radio_browser_probe_cache*
+**/curation_overrides*
+**/catalog_source*
+**/streams_manifest*
+**/radio_road_test_review*
+**/official_endpoint_verify*
+
+# Lokalne dumpy danych zrodlowych (GeoNames itp.)
+*.zip
+*.gz
+*.tar
+PL.txt
+admin1CodesASCII.txt
+readme.txt
+locations/
+
+# Sekrety i poswiadczenia
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.keystore
+credentials*
+secrets*
+
+# Smieci IDE / systemu operacyjnego
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.iml

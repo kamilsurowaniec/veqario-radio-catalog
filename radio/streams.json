@@ -1,0 +1,130 @@
+{
+  "manifestVersion": 1,
+  "catalogRevision": 1,
+  "streams": {
+    "antyradio-made-in-poland": {
+      "primaryUrl": "https://an.cdn.eurozet.pl/ANTPOL.mp3",
+      "fallbackUrls": []
+    },
+    "chillizet-ladies": {
+      "primaryUrl": "https://ch.cdn.eurozet.pl/CHILAD.mp3",
+      "fallbackUrls": []
+    },
+    "discoparty-club": {
+      "primaryUrl": "https://s3.slotex.pl/shoutcast/7354/stream?sid=1",
+      "fallbackUrls": []
+    },
+    "discoparty-lata-90": {
+      "primaryUrl": "https://s3.slotex.pl/shoutcast/7170/stream?sid=1",
+      "fallbackUrls": []
+    },
+    "eska-bialystok": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2020-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-lublin": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2130-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-poznan": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2140-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-rzeszow": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2240-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-suwalki": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2540-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-warszawa": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2380-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-zamosc": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2230-1.aac",
+      "fallbackUrls": []
+    },
+    "polskie-radio-dla-ukrainy": {
+      "primaryUrl": "https://stream85.polskieradio.pl/radio_ukraina/ukraina.stream/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "radio-5": {
+      "primaryUrl": "https://streaming.radio5.com.pl:8888/radio5suwalki",
+      "fallbackUrls": []
+    },
+    "radio-index": {
+      "primaryUrl": "https://stream.wzielonej.pl:8000/2",
+      "fallbackUrls": []
+    },
+    "radio-kielce": {
+      "primaryUrl": "https://streaming.g-news.pl:8030/rk2",
+      "fallbackUrls": []
+    },
+    "radio-kolor": {
+      "primaryUrl": "https://stream.rcs.revma.com/zbq79057xd3vv",
+      "fallbackUrls": []
+    },
+    "radio-leliwa": {
+      "primaryUrl": "https://streaming.g-news.pl:8050/leliwa",
+      "fallbackUrls": []
+    },
+    "radio-poland": {
+      "primaryUrl": "https://stream85.polskieradio.pl/pr5/pr5.sdp/playlist.m3u8",
+      "fallbackUrls": []
+    },
+    "radio-rzeszow": {
+      "primaryUrl": "https://streaming.g-news.pl:8040/rzeszow",
+      "fallbackUrls": []
+    },
+    "radio-yanosik": {
+      "primaryUrl": "https://stream.rcs.revma.com/7vhveccrnquvv",
+      "fallbackUrls": []
+    },
+    "radio-zet-love": {
+      "primaryUrl": "https://zt.cdn.eurozet.pl/ZETLOV.mp3",
+      "fallbackUrls": []
+    },
+    "radio-zet-na-rower": {
+      "primaryUrl": "https://zt.cdn.eurozet.pl/ZETNAR.mp3",
+      "fallbackUrls": []
+    },
+    "rdn-malopolska": {
+      "primaryUrl": "https://stream1.dabcom.pl/rdn_mpl",
+      "fallbackUrls": []
+    },
+    "red7": {
+      "primaryUrl": "https://s.red7.pl/stream256",
+      "fallbackUrls": []
+    },
+    "red7-edm": {
+      "primaryUrl": "https://s.red7.pl/edm256",
+      "fallbackUrls": []
+    },
+    "rmf-disco-polo": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_disco_polo",
+      "fallbackUrls": []
+    },
+    "rmf-fm": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_fm",
+      "fallbackUrls": []
+    },
+    "rmf-k-pop": {
+      "primaryUrl": "https://rs101-krk.rmfstream.pl/rmf_gamemusic",
+      "fallbackUrls": []
+    },
+    "rmf-smooth-jazz": {
+      "primaryUrl": "https://rs103-krk.rmfstream.pl/rmf_smooth_jazz",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-bydgoszcz": {
+      "primaryUrl": "https://radiostream.pl/tuba8902-1.mp3",
+      "fallbackUrls": []
+    },
+    "zlote-przeboje-wroclaw": {
+      "primaryUrl": "https://radiostream.pl/tuba8940-1.mp3",
+      "fallbackUrls": []
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "configVersion": 1,
+  "catalogRevision": 1,
+  "catalogPath": "stations.json",
+  "logoBasePath": "logos/",
+  "resolver": {
+    "type": "publicManifest",
+    "uri": "streams.json"
+  }
+}

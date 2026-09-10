@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 2,
+  "minimumClientProtocol": 2,
+  "revision": 1,
+  "updatedAt": "2026-09-10T16:15:21.000Z",
+  "groups": [
+    {
+      "id": "eska",
+      "name": "Radio ESKA"
+    },
+    {
+      "id": "zlote-przeboje",
+      "name": "Radio Złote Przeboje"
+    }
+  ],
+  "streams": [
+    {
+      "id": "antyradio-made-in-poland",
+      "name": "Antyradio Made in Poland",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "chillizet-ladies",
+      "name": "Chillizet Ladies",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "discoparty-club",
+      "name": "DiscoParty Club",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "discoparty-lata-90",
+      "name": "DiscoParty Lata 90",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "polskie-radio-dla-ukrainy",
+      "name": "Polskie Radio dla Ukrainy",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "radio-rzeszow",
+      "name": "Polskie Radio Rzeszów",
+      "city": "Rzeszów",
+      "voivodeship": "podkarpackie",
+      "countryCode": "PL",
+      "latitude": 50.04132,
+      "longitude": 21.99901,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "radio-5",
+      "name": "Radio 5",
+      "city": "Suwałki",
+      "voivodeship": "podlaskie",
+      "countryCode": "PL",
+      "latitude": 54.11175,
+      "longitude": 22.93087,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "eska-bialystok",
+      "groupId": "eska",
+      "name": "Radio ESKA Białystok",
+      "city": "Białystok",
+      "voivodeship": "podlaskie",
+      "countryCode": "PL",
+      "latitude": 53.13333,
+      "longitude": 23.16433,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-lublin",
+      "groupId": "eska",
+      "name": "Radio ESKA Lublin",
+      "city": "Lublin",
+      "voivodeship": "lubelskie",
+      "countryCode": "PL",
+      "latitude": 51.25058,
+      "longitude": 22.57009,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-poznan",
+      "groupId": "eska",
+      "name": "Radio ESKA Poznań",
+      "city": "Poznań",
+      "voivodeship": "wielkopolskie",
+      "countryCode": "PL",
+      "latitude": 52.40692,
+      "longitude": 16.92993,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-rzeszow",
+      "groupId": "eska",
+      "name": "Radio ESKA Rzeszów",
+      "city": "Rzeszów",
+      "voivodeship": "podkarpackie",
+      "countryCode": "PL",
+      "latitude": 50.04132,
+      "longitude": 21.99901,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-suwalki",
+      "groupId": "eska",
+      "name": "Radio ESKA Suwałki",
+      "city": "Suwałki",
+      "voivodeship": "podlaskie",
+      "countryCode": "PL",
+      "latitude": 54.11175,
+      "longitude": 22.93087,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-warszawa",
+      "groupId": "eska",
+      "name": "Radio ESKA Warszawa",
+      "city": "Warszawa",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 52.22977,
+      "longitude": 21.01178,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "eska-zamosc",
+      "groupId": "eska",
+      "name": "Radio ESKA Zamość",
+      "city": "Zamość",
+      "voivodeship": "lubelskie",
+      "countryCode": "PL",
+      "latitude": 50.72314,
+      "longitude": 23.25196,
+      "codec": "aacp",
+      "enabled": true
+    },
+    {
+      "id": "radio-index",
+      "name": "Radio Index",
+      "city": "Zielona Góra",
+      "voivodeship": "lubuskie",
+      "countryCode": "PL",
+      "latitude": 51.93548,
+      "longitude": 15.50643,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "radio-kielce",
+      "name": "Radio Kielce",
+      "city": "Kielce",
+      "voivodeship": "swietokrzyskie",
+      "countryCode": "PL",
+      "latitude": 50.87033,
+      "longitude": 20.62752,
+      "codec": "aac",
+      "enabled": true
+    },
+    {
+      "id": "radio-kolor",
+      "name": "Radio Kolor",
+      "city": "Warszawa",
+      "voivodeship": "mazowieckie",
+      "countryCode": "PL",
+      "latitude": 52.22977,
+      "longitude": 21.01178,
+      "codec": "aac",
+      "enabled": true
+    },
+    {
+      "id": "radio-leliwa",
+      "name": "Radio Leliwa",
+      "city": "Tarnobrzeg",
+      "voivodeship": "podkarpackie",
+      "countryCode": "PL",
+      "latitude": 50.57304,
+      "longitude": 21.67937,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "radio-poland",
+      "name": "Radio Poland",
+      "countryCode": "PL",
+      "codec": "hls",
+      "enabled": true
+    },
+    {
+      "id": "radio-yanosik",
+      "name": "Radio Yanosik",
+      "countryCode": "PL",
+      "codec": "aac",
+      "enabled": true
+    },
+    {
+      "id": "radio-zet-love",
+      "name": "Radio ZET Love",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "radio-zet-na-rower",
+      "name": "Radio ZET na Rower",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-bydgoszcz",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Bydgoszcz",
+      "city": "Bydgoszcz",
+      "voivodeship": "kujawsko-pomorskie",
+      "countryCode": "PL",
+      "latitude": 53.1235,
+      "longitude": 18.00762,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "zlote-przeboje-wroclaw",
+      "groupId": "zlote-przeboje",
+      "name": "Radio Złote Przeboje Wrocław",
+      "city": "Wrocław",
+      "voivodeship": "dolnoslaskie",
+      "countryCode": "PL",
+      "latitude": 51.10286,
+      "longitude": 17.03006,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rdn-malopolska",
+      "name": "RDN Małopolska",
+      "city": "Tarnów",
+      "voivodeship": "malopolskie",
+      "countryCode": "PL",
+      "latitude": 50.01381,
+      "longitude": 20.98698,
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "red7",
+      "name": "Red7",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "red7-edm",
+      "name": "Red7 EDM",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-disco-polo",
+      "name": "RMF Disco Polo",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-fm",
+      "name": "RMF FM",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-k-pop",
+      "name": "RMF K-pop",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    },
+    {
+      "id": "rmf-smooth-jazz",
+      "name": "RMF Smooth Jazz",
+      "countryCode": "PL",
+      "codec": "mp3",
+      "enabled": true
+    }
+  ]
+}
