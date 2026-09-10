@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "catalogRevision": 2,
+  "catalogRevision": 3,
   "streams": {
     "antyradio": {
       "primaryUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/ANTYRADIO.mp3",

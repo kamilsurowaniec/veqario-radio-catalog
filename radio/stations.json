@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "minimumClientProtocol": 2,
-  "revision": 2,
-  "updatedAt": "2026-09-10T17:52:39.000Z",
+  "revision": 3,
+  "updatedAt": "2026-09-10T18:30:00.000Z",
   "groups": [
     {
       "id": "eska",
@@ -1747,10 +1747,10 @@
       "groupId": "rmf-maxx",
       "name": "RMF MAXX Krosno",
       "city": "Krosno",
-      "voivodeship": "lubuskie",
+      "voivodeship": "podkarpackie",
       "countryCode": "PL",
-      "latitude": 52.05492,
-      "longitude": 15.09882,
+      "latitude": 49.68866,
+      "longitude": 21.77058,
       "codec": "mp3",
       "enabled": true
     },
@@ -1802,10 +1802,10 @@
       "groupId": "rmf-maxx",
       "name": "RMF MAXX Oleśnica",
       "city": "Oleśnica",
-      "voivodeship": "swietokrzyskie",
+      "voivodeship": "dolnoslaskie",
       "countryCode": "PL",
-      "latitude": 50.45357,
-      "longitude": 21.06457,
+      "latitude": 51.21338,
+      "longitude": 17.38986,
       "codec": "mp3",
       "enabled": true
     },
