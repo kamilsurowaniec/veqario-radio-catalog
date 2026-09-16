@@ -66,14 +66,26 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2030-1.aac",
       "fallbackUrls": []
     },
-    "eska-do-pracy": {"primaryUrl": "https://waw.ic.smcdn.pl/6140-1.aac", "fallbackUrls": []},
+    "eska-do-pracy": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6140-1.aac",
+      "fallbackUrls": []
+    },
     "eska-elblag": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2430-1.aac",
       "fallbackUrls": []
     },
-    "eska-fitness": {"primaryUrl": "https://waw.ic.smcdn.pl/6150-1.aac", "fallbackUrls": []},
-    "eska-goraca-100": {"primaryUrl": "https://waw.ic.smcdn.pl/6120-1.aac", "fallbackUrls": []},
-    "eska-goraca-20": {"primaryUrl": "https://waw.ic.smcdn.pl/6130-1.aac", "fallbackUrls": []},
+    "eska-fitness": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6150-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-goraca-100": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6120-1.aac",
+      "fallbackUrls": []
+    },
+    "eska-goraca-20": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6130-1.aac",
+      "fallbackUrls": []
+    },
     "eska-gorzow-wielkopolski": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2040-1.aac",
       "fallbackUrls": []
@@ -86,13 +98,12 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2440-1.aac",
       "fallbackUrls": []
     },
-    "eska-impreska": {"primaryUrl": "https://waw.ic.smcdn.pl/6030-1.aac", "fallbackUrls": []},
-    "eska-jelenia-gora": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/2480-1.aac",
+    "eska-impreska": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6030-1.aac",
       "fallbackUrls": []
     },
-    "eska-k-pop": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6310-1.aac",
+    "eska-jelenia-gora": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/2480-1.aac",
       "fallbackUrls": []
     },
     "eska-kalisz": {
@@ -123,7 +134,10 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2080-1.aac",
       "fallbackUrls": []
     },
-    "eska-live-remix": {"primaryUrl": "https://waw.ic.smcdn.pl/6270-1.aac", "fallbackUrls": []},
+    "eska-live-remix": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6270-1.aac",
+      "fallbackUrls": []
+    },
     "eska-lodz": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2100-1.aac",
       "fallbackUrls": []
@@ -132,7 +146,10 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2460-1.aac",
       "fallbackUrls": []
     },
-    "eska-love": {"primaryUrl": "https://waw.ic.smcdn.pl/6280-1.aac", "fallbackUrls": []},
+    "eska-love": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6280-1.aac",
+      "fallbackUrls": []
+    },
     "eska-lublin": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2130-1.aac",
       "fallbackUrls": []
@@ -177,7 +194,10 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2210-1.aac",
       "fallbackUrls": []
     },
-    "eska-rap20": {"primaryUrl": "https://waw.ic.smcdn.pl/6190-1.aac", "fallbackUrls": []},
+    "eska-rap20": {
+      "primaryUrl": "https://waw.ic.smcdn.pl/6190-1.aac",
+      "fallbackUrls": []
+    },
     "eska-rock": {
       "primaryUrl": "https://waw.ic.smcdn.pl/5980-1.aac",
       "fallbackUrls": []
@@ -234,10 +254,6 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2150-1.aac",
       "fallbackUrls": []
     },
-    "eska-toy-story-radio": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6300-1.aac",
-      "fallbackUrls": []
-    },
     "eska-trojmiasto": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2170-1.aac",
       "fallbackUrls": []
@@ -282,20 +298,8 @@
       "primaryUrl": "https://stream14.polskieradio.pl/pr4/pr4.sdp/playlist.m3u8",
       "fallbackUrls": []
     },
-    "polskie-radio-dla-ukrainy": {
-      "primaryUrl": "https://stream85.polskieradio.pl/radio_ukraina/ukraina.stream/playlist.m3u8",
-      "fallbackUrls": []
-    },
-    "polskie-radio-dla-zagranicy": {
-      "primaryUrl": "https://stream85.polskieradio.pl/pr5/pr5_wsch.sdp/playlist.m3u8",
-      "fallbackUrls": []
-    },
     "polskie-radio-dwojka": {
       "primaryUrl": "https://stream12.polskieradio.pl/pr2/pr2.sdp/playlist.m3u8",
-      "fallbackUrls": []
-    },
-    "polskie-radio-dzieciom": {
-      "primaryUrl": "https://stream85.polskieradio.pl/live/radio_dzieciom.sdp/playlist.m3u8",
       "fallbackUrls": []
     },
     "polskie-radio-jedynka": {
@@ -944,6 +948,86 @@
     },
     "zlote-przeboje-zielona-gora": {
       "primaryUrl": "https://radiostream.pl/tuba8944-1.mp3",
+      "fallbackUrls": []
+    },
+    "radio-party-kanal-glowny": {
+      "primaryUrl": "https://s.radioparty.pl/mainstream?_l=1789567406663&_live=1789567397631",
+      "fallbackUrls": []
+    },
+    "radio-party-kanal-house": {
+      "primaryUrl": "https://s.radioparty.pl/housestream?_l=1789567524938&_live=1789567515889",
+      "fallbackUrls": []
+    },
+    "radio-party-kanal-djmixes": {
+      "primaryUrl": "https://s.radioparty.pl/djmixesstream?_l=1789567560139&_live=1789567551037",
+      "fallbackUrls": []
+    },
+    "radio-party-kanal-energy-2000": {
+      "primaryUrl": "https://s.radioparty.pl/energy2000stream?_l=1789567599938&_live=1789567593768",
+      "fallbackUrls": []
+    },
+    "meloradio-bielsko-biala": {
+      "primaryUrl": "https://ml06.cdn.eurozet.pl/mel-bls.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=06",
+      "fallbackUrls": []
+    },
+    "meloradio-gizycko": {
+      "primaryUrl": "https://ml03.cdn.eurozet.pl/mel-gzc.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=03",
+      "fallbackUrls": []
+    },
+    "meloradio-inowroclaw": {
+      "primaryUrl": "https://ml06.cdn.eurozet.pl/mel-inw.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=06",
+      "fallbackUrls": []
+    },
+    "meloradio-krakow": {
+      "primaryUrl": "https://ml05.cdn.eurozet.pl/mel-krk.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=05",
+      "fallbackUrls": []
+    },
+    "meloradio-lodz": {
+      "primaryUrl": "https://ml05.cdn.eurozet.pl/mel-ldz.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=05",
+      "fallbackUrls": []
+    },
+    "meloradio-morag": {
+      "primaryUrl": "https://ml03.cdn.eurozet.pl/mel-ost.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=03",
+      "fallbackUrls": []
+    },
+    "meloradio-olsztyn": {
+      "primaryUrl": "https://ml05.cdn.eurozet.pl/mel-ols.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=05",
+      "fallbackUrls": []
+    },
+    "meloradio-opole": {
+      "primaryUrl": "https://ml04.cdn.eurozet.pl/mel-opl.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=04",
+      "fallbackUrls": []
+    },
+    "meloradio-ostroda": {
+      "primaryUrl": "https://ml04.cdn.eurozet.pl/mel-ost.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=04",
+      "fallbackUrls": []
+    },
+    "meloradio-poznan": {
+      "primaryUrl": "https://ml06.cdn.eurozet.pl/mel-poz.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=06",
+      "fallbackUrls": []
+    },
+    "meloradio-slask": {
+      "primaryUrl": "https://ml06.cdn.eurozet.pl/mel-ktw.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=06",
+      "fallbackUrls": []
+    },
+    "meloradio-tarnobrzeg": {
+      "primaryUrl": "https://ml04.cdn.eurozet.pl/mel-trb.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=04",
+      "fallbackUrls": []
+    },
+    "meloradio-torun": {
+      "primaryUrl": "https://ml04.cdn.eurozet.pl/mel-trn.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=04",
+      "fallbackUrls": []
+    },
+    "meloradio-wroclaw": {
+      "primaryUrl": "https://ml04.cdn.eurozet.pl/mel-wro.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=04",
+      "fallbackUrls": []
+    },
+    "melo-fast-songs": {
+      "primaryUrl": "https://ml04.cdn.eurozet.pl/MELFST.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=04",
+      "fallbackUrls": []
+    },
+    "melo-hot-dance": {
+      "primaryUrl": "https://ml05.cdn.eurozet.pl/MELHDN.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=05",
       "fallbackUrls": []
     }
   }
