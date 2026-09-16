@@ -1029,6 +1029,10 @@
     "melo-hot-dance": {
       "primaryUrl": "https://ml05.cdn.eurozet.pl/MELHDN.mp3?ppid=e80adf4699a93b3e0e40b0ed&filetype=mp3?redirected=05",
       "fallbackUrls": []
+    },
+    "eska-2-stalowa-wola": {
+      "primaryUrl": "https://ic2.smcdn.pl/1370-1.aac",
+      "fallbackUrls": []
     }
   }
 }

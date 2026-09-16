@@ -2724,6 +2724,20 @@
       "bitrateKbps": 128,
       "logo": "logos/groups/meloradio.webp",
       "enabled": true
+    },
+    {
+      "id": "eska-2-stalowa-wola",
+      "groupId": "eska-2",
+      "name": "ESKA 2 Stalowa Wola",
+      "city": "Stalowa Wola",
+      "voivodeship": "podkarpackie",
+      "countryCode": "PL",
+      "latitude": 50.5706931,
+      "longitude": 22.0546269,
+      "codec": "aac",
+      "bitrateKbps": 128,
+      "logo": null,
+      "enabled": true
     }
   ]
 }
