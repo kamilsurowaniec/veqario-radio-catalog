@@ -66,26 +66,14 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2030-1.aac",
       "fallbackUrls": []
     },
-    "eska-do-pracy": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6140-1.aac",
-      "fallbackUrls": []
-    },
+    "eska-do-pracy": "https://waw.ic.smcdn.pl/6140-1.aac",
     "eska-elblag": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2430-1.aac",
       "fallbackUrls": []
     },
-    "eska-fitness": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6150-1.aac",
-      "fallbackUrls": []
-    },
-    "eska-goraca-100": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6120-1.aac",
-      "fallbackUrls": []
-    },
-    "eska-goraca-20": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6130-1.aac",
-      "fallbackUrls": []
-    },
+    "eska-fitness": "https://waw.ic.smcdn.pl/6150-1.aac",
+    "eska-goraca-100": "https://waw.ic.smcdn.pl/6120-1.aac",
+    "eska-goraca-20": "https://waw.ic.smcdn.pl/6130-1.aac",
     "eska-gorzow-wielkopolski": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2040-1.aac",
       "fallbackUrls": []
@@ -98,10 +86,7 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2440-1.aac",
       "fallbackUrls": []
     },
-    "eska-impreska": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6030-1.aac",
-      "fallbackUrls": []
-    },
+    "eska-impreska": "https://waw.ic.smcdn.pl/6030-1.aac",
     "eska-jelenia-gora": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2480-1.aac",
       "fallbackUrls": []
@@ -138,10 +123,7 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2080-1.aac",
       "fallbackUrls": []
     },
-    "eska-live-remix": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6270-1.aac",
-      "fallbackUrls": []
-    },
+    "eska-live-remix": "https://waw.ic.smcdn.pl/6270-1.aac",
     "eska-lodz": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2100-1.aac",
       "fallbackUrls": []
@@ -150,10 +132,7 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2460-1.aac",
       "fallbackUrls": []
     },
-    "eska-love": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6280-1.aac",
-      "fallbackUrls": []
-    },
+    "eska-love": "https://waw.ic.smcdn.pl/6280-1.aac",
     "eska-lublin": {
       "primaryUrl": "https://waw.ic.smcdn.pl/2130-1.aac",
       "fallbackUrls": []
@@ -198,10 +177,7 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2210-1.aac",
       "fallbackUrls": []
     },
-    "eska-rap20": {
-      "primaryUrl": "https://waw.ic.smcdn.pl/6190-1.aac",
-      "fallbackUrls": []
-    },
+    "eska-rap20": "https://waw.ic.smcdn.pl/6190-1.aac",
     "eska-rock": {
       "primaryUrl": "https://waw.ic.smcdn.pl/5980-1.aac",
       "fallbackUrls": []

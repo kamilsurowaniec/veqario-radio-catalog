@@ -7,7 +7,8 @@
     {
       "id": "eska",
       "name": "Radio ESKA",
-      "nationalFallbackStreamId": "eska"
+      "nationalFallbackStreamId": "eska",
+      "logo": "logos/groups/eska.webp"
     },
     {
       "id": "zlote-przeboje",
@@ -76,39 +77,74 @@
       "enabled": true
     },
     {
-      "id": "eska-do-pracy",
+      "groupId": null,
       "name": "ESKA Do Pracy",
+      "city": null,
+      "voivodeship": null,
       "countryCode": "PL",
-      "codec": "aacp",
-      "enabled": true
+      "latitude": null,
+      "longitude": null,
+      "codec": "mp3",
+      "bitrateKbps": 128,
+      "logo": "logos/streams/eska-do-pracy.webp",
+      "enabled": true,
+      "id": "eska-do-pracy"
     },
     {
-      "id": "eska-fitness",
+      "groupId": null,
       "name": "ESKA FITNESS",
+      "city": null,
+      "voivodeship": null,
       "countryCode": "PL",
-      "codec": "aacp",
-      "enabled": true
+      "latitude": null,
+      "longitude": null,
+      "codec": "mp3",
+      "bitrateKbps": 128,
+      "logo": "logos/streams/eska-fitness.webp",
+      "enabled": true,
+      "id": "eska-fitness"
     },
     {
-      "id": "eska-goraca-100",
+      "groupId": null,
       "name": "ESKA GORĄCA 100",
+      "city": null,
+      "voivodeship": null,
       "countryCode": "PL",
-      "codec": "aacp",
-      "enabled": true
+      "latitude": null,
+      "longitude": null,
+      "codec": "mp3",
+      "bitrateKbps": 128,
+      "logo": "logos/streams/eska-goraca-100.webp",
+      "enabled": true,
+      "id": "eska-goraca-100"
     },
     {
-      "id": "eska-goraca-20",
+      "groupId": null,
       "name": "ESKA GORĄCA 20",
+      "city": null,
+      "voivodeship": null,
       "countryCode": "PL",
-      "codec": "aacp",
-      "enabled": true
+      "latitude": null,
+      "longitude": null,
+      "codec": "mp3",
+      "bitrateKbps": 128,
+      "logo": "logos/streams/eska-goraca-20.webp",
+      "enabled": true,
+      "id": "eska-goraca-20"
     },
     {
-      "id": "eska-impreska",
+      "groupId": null,
       "name": "ESKA Impreska",
+      "city": null,
+      "voivodeship": null,
       "countryCode": "PL",
-      "codec": "aacp",
-      "enabled": true
+      "latitude": null,
+      "longitude": null,
+      "codec": "",
+      "bitrateKbps": 128,
+      "logo": "logos/streams/eska-impreska.webp",
+      "enabled": true,
+      "id": "eska-impreska"
     },
     {
       "id": "eska-k-pop",
@@ -118,25 +154,46 @@
       "enabled": true
     },
     {
-      "id": "eska-live-remix",
+      "groupId": null,
       "name": "ESKA LIVE REMIX",
+      "city": null,
+      "voivodeship": null,
       "countryCode": "PL",
-      "codec": "aacp",
-      "enabled": true
+      "latitude": null,
+      "longitude": null,
+      "codec": "",
+      "bitrateKbps": 128,
+      "logo": "logos/streams/eska-live-remix",
+      "enabled": true,
+      "id": "eska-live-remix"
     },
     {
-      "id": "eska-love",
+      "groupId": null,
       "name": "ESKA LOVE",
+      "city": null,
+      "voivodeship": null,
       "countryCode": "PL",
-      "codec": "aacp",
-      "enabled": true
+      "latitude": null,
+      "longitude": null,
+      "codec": "",
+      "bitrateKbps": 128,
+      "logo": "logos/streams/eska-love.webp",
+      "enabled": true,
+      "id": "eska-love"
     },
     {
-      "id": "eska-rap20",
+      "groupId": null,
       "name": "ESKA Rap20",
+      "city": null,
+      "voivodeship": null,
       "countryCode": "PL",
-      "codec": "aacp",
-      "enabled": true
+      "latitude": null,
+      "longitude": null,
+      "codec": "",
+      "bitrateKbps": 128,
+      "logo": "logos/streams/eska-rap-20.webp",
+      "enabled": true,
+      "id": "eska-rap20"
     },
     {
       "id": "eska-rock",
