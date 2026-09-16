@@ -177,7 +177,7 @@
       "primaryUrl": "https://waw.ic.smcdn.pl/2210-1.aac",
       "fallbackUrls": []
     },
-    "eska-rap20": {"primaryUrl": "https://waw.ic.smcdn.pl/6190-1.aac", "fallbackUrls": []}
+    "eska-rap20": {"primaryUrl": "https://waw.ic.smcdn.pl/6190-1.aac", "fallbackUrls": []},
     "eska-rock": {
       "primaryUrl": "https://waw.ic.smcdn.pl/5980-1.aac",
       "fallbackUrls": []
